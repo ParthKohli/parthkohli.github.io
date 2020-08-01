@@ -1,16 +1,12 @@
 ---
 layout: page
 title: About me
-subtitle: Why you'd want to go on a date with me
+subtitle: Let's hang out
 ---
 
-My name is Inigo Montoya. I have the following qualities:
+I'm a senior year Applied Mathematics student at [IIT Roorkee](https://iitr.ac.in). My interests vary by the minute, but vastly, I'm interested in mathematics, scientific computing, and computer systems. Some key facts about me are presented below:
 
-- I rock a great mustache
-- I'm extremely loyal to my family
-
-What else do you need?
-
-### my history
-
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](https://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
+* I came into existence on 27th July, 1999 in [Kanpur, India](https://en.wikipedia.org/wiki/Kanpur).
+* I attended [Summer Fields School](https://sfsdlf.com/) for 14 years in Gurgaon, India (also my hometown).
+* I half-assedly wrote JEE Advanced in 2017.
+* It's 2020, and I'm now entering my fourth year in college.
