@@ -17,14 +17,12 @@
   {% include gtag.html %}
   {% include gtm_head.html %}
   {% include google_analytics.html %}
-  {% if page.usemathjax %}
-    <script type="text/x-mathjax-config">
-      MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+  <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+  </script>
+  <script type="text/javascript" async
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
     </script>
-    <script type="text/javascript" async
-    src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
-      </script>
-  {% endif %}
   {% if layout.common-ext-css %}
     {% for css in layout.common-ext-css %}
       {% include ext-css.html css=css %}

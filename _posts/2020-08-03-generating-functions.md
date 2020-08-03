@@ -5,7 +5,9 @@ tags: [math, counting]
 comments: true
 usemathjax: true
 ---
-Here is an overwhelming problem from the recent [AIsing Programming Contest 2020 on AtCoder.](https://atcoder.jp/contests/aising2020/tasks/aising2020_f) The problem is to compute the sum of \\[\tag{1}(a_2 - a_1)(b_2 - b_1)(c_2 - c_1)(d_2 - d_1)(e_2 - e_1)\\] for all tuples such that \\[\tag{2} a_1 + a_2 + b_1 + b_2 + \cdots + e_1 + e_2 \le N\\] where $$\tag{3} 0 \le a_1 < a_2, ~ 0 \le b_1 < b_2, \cdots,~ 0 \le e_1 < e_2$$The constraint $N \le 10^9$ makes it worse. 
+Here is a monstrous problem from the recent [AIsing Programming Contest 2020 on AtCoder.](https://atcoder.jp/contests/aising2020/tasks/aising2020_f) 
+
+The problem is to compute the sum of \\[\tag{1}(a_2 - a_1)(b_2 - b_1)(c_2 - c_1)(d_2 - d_1)(e_2 - e_1)\\] for all tuples such that \\[\tag{2} a_1 + a_2 + b_1 + b_2 + \cdots + e_1 + e_2 \le N\\] where $$\tag{3} 0 \le a_1 < a_2, ~ 0 \le b_1 < b_2, \cdots,~ 0 \le e_1 < e_2$$The constraint $N \le 10^9$ makes it worse. 
 
 To begin, it's a good idea to cast the differences in the target expression as separate variables. Let's rename $a_1$ as $a$ and $a_2$ as $a + a'$, so that $a' = a_2 - a_1$. It's also a good idea to add a dummy $f \ge 0$ to $(2)$ to the left side so that it becomes an equation. Under this renaming, things become slightly simpler. We're now asked to evaluate the sum of \\[\tag{1*} a' b' c' d' e'\\]for all tuples such that\\[\tag{2\*} 2(a + b + \cdots + e) + (a' + b' + \cdots + e') + f = N \\]where\\[\tag{3\*} \begin{cases}a, b, \cdots, e, f \ge 0 \\\\ a', b', c', d', e' > 0\end{cases}\\]While the target expression $(1\*)$ is simpler, we need to find out what to do about $(2\*)$. Another greatly used tool in combinatorics is casting these problems in terms of [generating functions](https://en.wikipedia.org/wiki/Generating_function) and obtaining the solution by manipulating the power series.
 
