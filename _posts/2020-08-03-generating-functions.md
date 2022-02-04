@@ -5,7 +5,7 @@ tags: [math, counting]
 comments: true
 usemathjax: true
 ---
-Here is a monstrous problem from the recent [AIsing Programming Contest 2020 on AtCoder.](https://atcoder.jp/contests/aising2020/tasks/aising2020_f) 
+Let's look at this math problem from the recent [AIsing Programming Contest 2020 on AtCoder.](https://atcoder.jp/contests/aising2020/tasks/aising2020_f) 
 
 The problem is to compute the sum of \\[\tag{1}(a_2 - a_1)(b_2 - b_1)(c_2 - c_1)(d_2 - d_1)(e_2 - e_1)\\] for all tuples such that \\[\tag{2} a_1 + a_2 + b_1 + b_2 + \cdots + e_1 + e_2 \le N\\] where $$\tag{3} 0 \le a_1 < a_2, ~ 0 \le b_1 < b_2, \cdots,~ 0 \le e_1 < e_2$$The constraint $N \le 10^9$ makes it worse. 
 
