@@ -2,7 +2,7 @@
 layout: post
 title: More Generating Functions 
 tags: [math, combinatorics, inclusion-exclusion]
-comments: true
+comments: false
 usemathjax: true
 ---
 Today we take a look at the problem [ABC241 H](https://atcoder.jp/contests/abc241/tasks/abc241_h).

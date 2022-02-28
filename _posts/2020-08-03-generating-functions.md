@@ -2,7 +2,7 @@
 layout: post
 title: Generating Functions 
 tags: [math, counting]
-comments: true
+comments: false
 usemathjax: true
 ---
 Let's look at this math problem from the recent [AIsing Programming Contest 2020 on AtCoder.](https://atcoder.jp/contests/aising2020/tasks/aising2020_f) 
