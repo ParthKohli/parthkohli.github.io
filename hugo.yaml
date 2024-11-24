@@ -57,18 +57,16 @@ params:
 
   # profile-mode
   profileMode:
-    enabled: false # needs to be explicitly set
-    title: ExampleSite
-    subtitle: "This is subtitle"
-    imageUrl: "<img location>"
-    imageWidth: 120
-    imageHeight: 120
-    imageTitle: my image
+    enabled: true # needs to be explicitly set
+    title: Parth Kohli
+    subtitle: "Software engineer in Bengaluru, India"
+    imageUrl: "/pic.jpg"
+    imageWidth: 200
+    imageHeight: 150
+    imageTitle: My picture, taken in October 2022 in Thailand
     buttons:
-      - name: Posts
+      - name: Writing
         url: posts
-      - name: Tags
-        url: tags
 
   # home-info mode
   homeInfoParams:
