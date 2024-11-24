@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Parth Kohli</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Parth Kohli</description>
+    <image>
+      <title>Parth Kohli</title>
+      <url>http://localhost:1313/</url>
+      <link>http://localhost:1313/</link>
+    </image>
+    <generator>Hugo -- 0.139.2</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 28 Feb 2022 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>More Generating Functions</title>
+      <link>http://localhost:1313/posts/2022-02-28-generating-functions-2/</link>
+      <pubDate>Mon, 28 Feb 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2022-02-28-generating-functions-2/</guid>
+      <description>&lt;p&gt;Today we take a look at the problem &lt;a href=&#34;https://atcoder.jp/contests/abc241/tasks/abc241_h&#34;&gt;ABC241 H&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;We are given $N \le 16$ distinct numbers $A_1, \cdots, A_N$ and a sequence describing the amount of supply of each number: a sequence $B_1, \cdots, B_N$ where $B_i$ refers to the supply of the number $A_i$. The score of a combination of $M$ chosen numbers is the product of the numbers. That is, suppose we pick $C_i$ occurences of the $A_i$ where $0 \le C_i \le B_i$ and $\sum C_i = M$, then $\text{score}(C) = \prod_{i = 1}^{N} A_i^{C_i}$. The objective is to find the sum of scores over all possible valid combinations.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Random OR</title>
+      <link>http://localhost:1313/posts/2022-02-05-random-or/</link>
+      <pubDate>Sat, 05 Feb 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2022-02-05-random-or/</guid>
+      <description>&lt;p&gt;Today I&amp;rsquo;ll discuss a &lt;a href=&#34;https://www.codechef.com/FEB221A/problems/RANDOMOR&#34;&gt;probability problem from CodeChef&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The problem is as follows: we have an $N$-bit number $S$ which is initially $0$. At each step, we pick an $N$-bit number $X$ uniformly randomly and set $S := S \mid X$ (the symbol $\mid$ denotes bitwise-or). The process terminates when $S$ becomes $2^N - 1$ (that is, it is impossible to increase it any further because every bit is 1). What is the expected number of steps until termination?&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Generating Functions</title>
+      <link>http://localhost:1313/posts/2020-08-03-generating-functions/</link>
+      <pubDate>Mon, 03 Aug 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2020-08-03-generating-functions/</guid>
+      <description>&lt;p&gt;Let&amp;rsquo;s look at this math problem from the recent &lt;a href=&#34;https://atcoder.jp/contests/aising2020/tasks/aising2020_f&#34;&gt;AIsing Programming Contest 2020 on AtCoder.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The problem is to compute the sum of \[\tag{1}(a_2 - a_1)(b_2 - b_1)(c_2 - c_1)(d_2 - d_1)(e_2 - e_1)\] for all tuples such that \[\tag{2} a_1 + a_2 + b_1 + b_2 + \cdots + e_1 + e_2 \le N\] where $$\tag{3} 0 \le a_1 &amp;lt; a_2, ~ 0 \le b_1 &amp;lt; b_2, \cdots,~ 0 \le e_1 &amp;lt; e_2$$The constraint $N \le 10^9$ makes it worse.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

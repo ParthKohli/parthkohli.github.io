@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Counting on Parth Kohli</title>
+    <link>http://localhost:1313/tags/counting/</link>
+    <description>Recent content in Counting on Parth Kohli</description>
+    <image>
+      <title>Parth Kohli</title>
+      <url>http://localhost:1313/</url>
+      <link>http://localhost:1313/</link>
+    </image>
+    <generator>Hugo -- 0.139.2</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:1313/tags/counting/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Generating Functions</title>
+      <link>http://localhost:1313/posts/2020-08-03-generating-functions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2020-08-03-generating-functions/</guid>
+      <description>&lt;p&gt;Let&amp;rsquo;s look at this math problem from the recent &lt;a href=&#34;https://atcoder.jp/contests/aising2020/tasks/aising2020_f&#34;&gt;AIsing Programming Contest 2020 on AtCoder.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The problem is to compute the sum of \[\tag{1}(a_2 - a_1)(b_2 - b_1)(c_2 - c_1)(d_2 - d_1)(e_2 - e_1)\] for all tuples such that \[\tag{2} a_1 + a_2 + b_1 + b_2 + \cdots + e_1 + e_2 \le N\] where $$\tag{3} 0 \le a_1 &amp;lt; a_2, ~ 0 \le b_1 &amp;lt; b_2, \cdots,~ 0 \le e_1 &amp;lt; e_2$$The constraint $N \le 10^9$ makes it worse.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
