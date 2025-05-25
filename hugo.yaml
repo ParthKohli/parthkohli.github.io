@@ -55,23 +55,11 @@ params:
     icon: /apple-touch-icon.png
     iconHeight: 35
 
-  # profile-mode
-  profileMode:
-    enabled: true # needs to be explicitly set
-    title: Parth Kohli
-    subtitle: "Software engineer in Bengaluru, India"
-    imageUrl: "/pic.jpg"
-    imageWidth: 200
-    imageHeight: 150
-    imageTitle: My picture, taken in October 2022 in Thailand
-    buttons:
-      - name: Writing
-        url: posts
-
   # home-info mode
   homeInfoParams:
     Title: "Parth Kohli"
-    Content: I am a software engineer in Bengaluru, India. I work on [Google Search](https://google.com). Previously, I worked at [0xPPL](https://0xppl.com) and [AlphaGrep Securities](https://alpha-grep.com). Back in 2022, I graduated from [IIT Roorkee](https://iitr.ac.in) where I studied mathematics and computer science.
+    Content: |
+      I am a software engineer in Bengaluru, India working at [Google](https://google.com). I studied Applied Mathematics at [IIT Roorkee](https://iitr.ac.in) and graduated in 2022. I am broadly interested in software engineering, mathematics, computer science and artificial intelligence.
  
   socialIcons:
     - name: x
