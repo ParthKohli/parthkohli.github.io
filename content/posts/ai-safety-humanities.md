@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The Human Spec
-tags: ["general"]
+tags: [general]
 date: "2025-05-26"
 ---
 
