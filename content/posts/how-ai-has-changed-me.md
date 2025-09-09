@@ -15,7 +15,7 @@ That was fortunately the only extent of my issues, and I don't have much more to
 
 ### Thinking
 
-I am a software engineer. Like many of my peers, I would rather write a wall of text to a model to change a line of code instead of just writing the damn code. A small percentage of old-timers resist AI-assisted coding, believing that it is a marketing fad forced on their colleagues by leadership. The fact is that most adoption of AI at work and in life is completely organic and driven by the principle of least effort. Humans are lazy, and software engineers are the laziest form of humans.
+I am a software engineer. Like many of my peers, I pair-program with AI, and I have grown so comfortable with that interface that sometimes I prompt the exact code change I want to make instead of typing it out in the editor. The discourse among old-timers who resist AI-assisted coding is that it is a marketing fad forced on them by leadership. But the fact is that most adoption of AI is completely organic and driven by the principle of least effort. Humans are lazy, and software engineers are the laziest form of humans.
  
 The "vibe" in "vibe coding" is a surprisingly effective description of my mental state, even though I do not subscribe to the practice[^1]. I reason about the codebase in System 2, but I verify code changes in System 1. 
 
