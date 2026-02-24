@@ -5,36 +5,28 @@ tags: [ai, general]
 date: "2025-09-05"
 ---
 
-Large language models have transformed the world in the last three years. Here are some notes on how they have changed my life so far:
+Large language models have had a profound impact in the last three years. Here are some notes on how they have changed my life so far:
 
-### Feeling
+### Emotions
 
-AI helped me eliminate anxiety that was rooted in serious inferiority complex. Knowing that I can now learn anything at any desired depth by talking to a model, I feel more secure and confident when I encounter a new subject knowing that there is an accessible and controllable way to learn it. I am much happier and much less fearful of the unknown. The web (with search engines) must have had a similar effect in the 1990s for a lot of that generation.
-
-That was fortunately the only extent of my issues, and I don't have much more to say here. I have not used AI as a therapist, but I support people who use it occasionally and think of it as a healthy coping mechanism, if not a solution.  
+AI has helped me eliminate the fear of the unknown. With the knowledge that there is an accessible to learn anything, I have grown more secure and confident in my existing abilities. The advent of search engines must have had a similar effect in the 1990s. I have not used AI as for emotional support and guidance, but I support the idea and think it can be emotionally healthy if done in a controlled way.
 
 ### Thinking
 
-I am a software engineer. Like many of my peers, I pair-program with AI, and I have grown so comfortable with that interface that sometimes I prompt the exact code change I want to make instead of typing it out in the editor. The discourse among old-timers who resist AI-assisted coding is that it is a marketing fad forced on them by leadership. But the fact is that most adoption of AI is completely organic and driven by the principle of least effort. Humans are lazy, and software engineers are the laziest form of humans.
+I am a software engineer. Like many of my peers, I pair-program with AI, and I have grown so comfortable it that I do not make known trivial edits (like modifying a constant) in the editor anymore. Surprisingly, the discourse among many of my experienced and accomplished colleagues is that it is a bubble. But that is most certainly not true - the rapid adoption of AI is completely organic and driven by the principle of least effort. Humans are lazy, and software engineers the laziest of humans.
  
-The "vibe" in "vibe coding" is a surprisingly effective description of my mental state, even though I do not subscribe to the practice[^1]. I reason about the codebase in System 2, but I verify code changes in System 1. 
+I do not subscribe to vibe coding as a serious engineering practice and prefer its sane sibling - agentic coding. But mentally, vibing is a perfect description of supervised AI-assisted coding. I reason about the codebase in System 2, but I verify code changes in System 1. I use AI to produce code for languages I have never learned, and still cannot recall enough to be able to write "Hello World". This is the consequence of relying on primal signals: instincts, contextual cues and low-level pattern matching rather than grounding in any real knowledge. Working reactively instead of actively. 
 
-I use AI to produce code for languages I have never learned, and still cannot recall enough to be able to write "Hello World". This is the consequence of relying on primal signals: instincts, contextual cues and low-level pattern matching rather than grounding in any real knowledge. Working reactively instead of actively. 
-
-It's funny that I am now the same pattern-matching machine that early-generation models were, while new-generation models have far better understanding and reliability than me. 
-
-It's easy to confuse this for the [flow state](https://en.wikipedia.org/wiki/Flow_(psychology)) because you get things done with a sense of effortlessness. But it is actually the polar opposite - flow involves accessing the highest modes of reasoning, not the lowest. It feels effortless because it is.
+It's funny that I am now the same pattern-matching machine that early-generation models were, while new-generation models have far better understanding and reliability than me. It's easy to confuse this for the [flow state](https://en.wikipedia.org/wiki/Flow_(psychology)) because you get things done with a sense of effortlessness. But it is actually the polar opposite - flow involves accessing the highest modes of reasoning, not the lowest. It feels effortless because it is.
 
 A lot of coding feels like completing a chore with no real sense of accomplishment. There are fewer stories and experiences you can share with colleagues about the technologies you closely work with, because a lot of them stem from the journey and the mistakes *you* made. That personal experience is lost. 
 
 I try to counteract these cognitive effects of AI by not using it in my personal projects, including in this blog post.
 
-### Being
+### Meaning
 
-People want to protect their strongest suit, their exclusive personal feature that makes them stand out. For a software engineer like me, that is intelligence and creativity. I was not gifted by any means, but I was an asset. I was at a top institute in India, and I outperformed my peers at competitive programming and academics. It was a trade-off: I did not have a social life outside of a few good friends. You win some, you lose some.
+People want to protect their strongest suit, their personal moat. For a software engineer like me, that is intelligence and creativity. I was not gifted by any means, but I am a highly valued and well-compensated asset. I was at a top institute in India, and I outperformed my peers at competitive programming and academics. It was a trade-off: I did not have a social life outside of a few good friends. You win some, you lose some.
 
-I kept in touch with these hobbies after starting my professional career in 2022 with a concrete desire to become a stable grandmaster at some point. That did not quite pan out because of how intelligent AI got in that timeframe. The goal eventually became irrelevant as AI started solving super-difficult problems to the point that I no longer think Codeforces ratings are a meaningful metric because of the rampant, undetectable use of AI in contests. I have the same concern for software engineering: even if AI can only become as good as the best human software engineer (which is unlikely to be the limit), what about the rest of us?
+I kept in touch with these hobbies after starting my professional career three years back with a concrete goal to achieve some unmet Elo milestones. That did not quite pan out because of how intelligent AI got in that timeframe. The goal eventually became irrelevant as AI started solving hard problems to the point that I no longer think Codeforces ratings are a meaningful metric because of the rampant, undetectable use of AI in contests. I have the same concern for software engineering: even if AI can only become as good as the best human software engineer (which is unlikely to be the limit), what about the rest of us?
 
-I have noticed that I care a lot more about the real world and humans now, even online. I gravitate towards places with human-generated content, and instantly filter out anything that looks like ChatGPT-ese regardless of its quality. I agree with Sam Altman that we will increasingly cherish human connection as we keep improving and collaborating with these machines.
-
-[^1]: As an engineer, I don't yield unchecked control of the codebase to a model. I still like to make incremental, single-scope changes and review the code at each step.
+I have noticed that I care a lot more about the real world and humans now. Even online, I seek grounded, human content. I instantly filter out AI-generated text irrespective of its objective quality. I agree with Sam Altman that we will increasingly cherish human connection as these machines improve and develop a mind of their own.
