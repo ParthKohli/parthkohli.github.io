@@ -1,0 +1,31 @@
+{{- define "main" }}
+
+{{- if .Content }}
+<article class="post-single">
+  <header class="post-header">
+    <h1 class="post-title">{{ .Title }}</h1>
+  </header>
+  <div class="post-content">{{ .Content }}</div>
+</article>
+{{- end }}
+
+{{- $pages := .Pages }}
+{{- range $pages.ByDate.Reverse }}
+<article class="post-single" style="margin-bottom: 2rem; padding-bottom: 2rem; border-bottom: 1px solid var(--border);">
+  <header class="post-header">
+    <h2 class="post-title" style="font-size: 1.25rem;">
+      <a href="{{ .Permalink }}">{{ .Title }}</a>
+    </h2>
+    <div class="post-meta" style="font-size: 0.85rem;">
+      {{ .Date | time.Format ":date_medium" }}
+    </div>
+  </header>
+  {{- if .Summary }}
+  <div class="post-content" style="font-family: monospace; white-space: pre-wrap; font-size: 0.9rem; color: var(--content);">
+    {{ .Summary }}
+  </div>
+  {{- end }}
+</article>
+{{- end }}
+
+{{- end }}
